@@ -1,0 +1,94 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+@import url("./reset.css");
+
+.container {
+  margin: 4rem 0 8rem 8rem;
+  font-family: "Poppins", sans-serif;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1000px auto;
+  gap: 40px; */
+}
+
+/* Navigation */
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-right: 8rem;
+  gap: 4rem;
+  /* grid-column: 1 / -1; */
+}
+
+.nav-button {
+  background-color: var(--button-color);
+  color: var(--light-gray);
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1.8rem 3.2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+  color: var(--black);
+  background-color: var(--medium-gray);
+}
+
+.navbar-container div img {
+  height: 35px;
+  width: 100px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--medium-gray);
+}
+
+.list-item:nth-child(1) {
+  color: var(--black);
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: var(--black);
+}
+
+/* Heading */
+
+.heading-text {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 7.2rem;
+  margin-bottom: 3rem;
+}
+
+.heading-text span {
+  color: var(--accent-color);
+}
+
+.description {
+  color: var(--dark-gray);
+  margin-bottom: 8rem;
+  font-size: 1.8rem;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-group {
+  margin-left: auto;
+}
